@@ -1,1 +1,16 @@
-{"version":3,"sources":["../../src/index.js"],"names":["obj","a","func","setTimeout","console","log","call"],"mappings":";;AAAA,IAAMA,MAAM,EAACC,GAAE,CAAH,EAAZ;;AAEA,SAASC,IAAT,GAAe;AAAA;;AACdC,YAAY,YAAM;AAAEC,UAAQC,GAAR;AAAmB,EAAvC,EAAyC,IAAzC;AACA;;AAEDH,KAAKI,IAAL,CAAUN,GAAV","file":"index.js","sourcesContent":["const obj = {a:1}\n\nfunction func(){\n\tsetTimeout( () => { console.log(this) }, 2000)\n}\n\nfunc.call(obj)"]}
+{
+  "version": 3,
+  "sources": [
+    "../../src/index.js"
+  ],
+  "names": [
+    "data",
+    "message",
+    "el"
+  ],
+  "mappings": ";;AAAA;;;;;;AACA;;;AAGA,IAAIA,OAAO;AACVC,UAAS;AADC,CAAX;AAGA,kBAAQ;AACPC,KAAI,MADG;AAEPF,OAAMA;AAFC,CAAR",
+  "file": "index.js",
+  "sourcesContent": [
+    "import Vue from \"vue/dist/vue.js\";\n// import Vue from \"vue\";\n\n\nvar data = {\n\tmessage: 'Learnikkknggg Vue.js'\n};\nnew Vue({\n\tel: '#app',\n\tdata: data\n});"
+  ]
+}

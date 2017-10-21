@@ -1,7 +1,24 @@
-const obj = {a:1}
+/*
+import Vue from "vue/dist/vue.js";
+// import Vue from "vue";
 
-function func(){
-	setTimeout( () => { console.log(this) }, 2000)
-}
 
-func.call(obj)
+var data = {
+	message: 'babzzzzzel.js'
+};
+new Vue({
+	el: '#app',
+	data: data
+});*/
+
+// console.log("ssszzz");
+
+document.getElementById('app').innerHTML='zzz';
+
+const helloWorld = () => {
+	console.log("zzzz");
+
+
+};
+helloWorld();
+

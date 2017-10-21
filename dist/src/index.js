@@ -1,14 +1,19 @@
-"use strict";
+'use strict';
 
-var obj = { a: 1 };
+var _vue = require('vue/dist/vue.js');
 
-function func() {
-	var _this = this;
+var _vue2 = _interopRequireDefault(_vue);
 
-	setTimeout(function () {
-		console.log(_this);
-	}, 2000);
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-func.call(obj);
+// import Vue from "vue";
+
+
+var data = {
+	message: 'Learnikkknggg Vue.js'
+};
+new _vue2.default({
+	el: '#app',
+	data: data
+});
 //# sourceMappingURL=index.js.map
